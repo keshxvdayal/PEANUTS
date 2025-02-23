@@ -3,3 +3,4 @@ gunicorn
 django-cors-headers
 social-auth-app-django
 channels
+whitenoise
