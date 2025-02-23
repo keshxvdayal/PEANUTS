@@ -76,7 +76,7 @@ MIDDLEWARE = [
 
 CSRF_TRUSTED_ORIGINS = ["https://peanuts-93k9.onrender.com/"]
 
-]
+
 CORS_ALLOWED_ORIGINS = [
     "https://peanuts-93k9.onrender.com/"
     "http://localhost:8001",
