@@ -73,8 +73,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'social_django.middleware.SocialAuthExceptionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
-    
-
+    'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
 CSRF_TRUSTED_ORIGINS = ["https://peanuts-93k9.onrender.com/"]
