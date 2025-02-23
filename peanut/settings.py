@@ -73,12 +73,17 @@ MIDDLEWARE = [
     
 
 ]
+
+CSRF_TRUSTED_ORIGINS = ["https://peanuts-93k9.onrender.com/"]
+
+]
 CORS_ALLOWED_ORIGINS = [
+    "https://peanuts-93k9.onrender.com/"
     "http://localhost:8001",
     "http://127.0.0.1:8000",
     "http://localhost:8000",
-    "https://peanuts-93k9.onrender.com/"
 ]
+
 
 ROOT_URLCONF = 'peanut.urls'
 
